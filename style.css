@@ -119,7 +119,7 @@ font-family:Arial, Helvetica, sans-serif ;
         font-size: 80px;
     color: white;
     position: absolute;
-    bottom: 10px;
+    bottom: 299px;
     padding-left: 20px;
     
     
@@ -160,6 +160,12 @@ font-family:Arial, Helvetica, sans-serif ;
 
         position: absolute;
     bottom: 185px;
+    }
+
+    .heading2{
+
+        display: inline;
+        
     }
 
 }
