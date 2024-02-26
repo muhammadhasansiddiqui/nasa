@@ -87,6 +87,29 @@ font-family:Arial, Helvetica, sans-serif ;
 
 }
 
+.heading2{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.news{
+
+    line-height: .95em;
+    font-family: "inter",sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.right-news{
+
+    font-size: 1.4rem;
+    font-weight: 700;
+
+
+}
+
 
 @media (max-width: 730px){
 
@@ -123,7 +146,7 @@ font-family:Arial, Helvetica, sans-serif ;
     .nasa-main-img h1{
 
         position: absolute;
-        bottom: 450px;
+        bottom: 366px;
         font-size: 40px;
     }
 
@@ -136,7 +159,7 @@ font-family:Arial, Helvetica, sans-serif ;
     .nasa-main-img p{
 
         position: absolute;
-    bottom: 281px;
+    bottom: 185px;
     }
 
 }
