@@ -162,10 +162,31 @@ font-size:25px ;
 font-family:Arial, Helvetica, sans-serif;
 font-weight: bold;
 position: relative;
-bottom: 160px !important;
+bottom: 240px !important;
 padding-left: 10px;
 
 }
+.members-para-2{
+color: #ffffff;
+    position: relative;
+    bottom: 230px !important;
+    padding-left: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500px;
+    
+
+}
+
+.members-para-3{
+    color: #ffffff;
+        position: relative;
+        top: -400px !important;
+        padding-left: 10px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        
+    
+    }
 
 
 @media (max-width: 768px) {
@@ -227,6 +248,14 @@ padding-left: 10px;
     }
 
 
+    .members-para{
+       width: 40vw;
+    position: relative;
+    bottom: 245px !important;
+    padding-left: 10px;
+    height: 0;
+    
+    }
 
 }
 
@@ -290,4 +319,19 @@ padding-left: 10px;
         height: 28vh !important;
         object-fit: cover;
     }
+
+
+    .members-para{
+        width: 70vw;
+     position: relative;
+     bottom: 270px !important;
+    
+     }
+     .members-para-3{
+        width: 70vw;
+     position: relative;
+     bottom: 200px !important;
+    
+     }
+
 }
