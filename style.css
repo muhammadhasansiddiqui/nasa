@@ -273,8 +273,8 @@ color: #ffffff;
     .members-para-my-edit{
 width: 50vw;
         position: relative;
-        bottom: 150px !important;
-
+        bottom: 180px !important;
+height: 0;
     }
 
 }
