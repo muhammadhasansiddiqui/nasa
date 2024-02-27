@@ -23,13 +23,8 @@ object-fit: cover;
 
 }
 
-.large-para1{
 
 
-
-
-    
-}
 .nasalogo {
 
     height: 7vh !important;
@@ -220,6 +215,12 @@ color: #ffffff;
 
 @media (max-width: 768px) {
 
+
+
+
+    
+
+
     .nasa-main-img h1 {
         font-family: sans-serif;
         font-weight: bold;
@@ -375,6 +376,10 @@ height: 0;
      position: relative;
      bottom: 275px !important;
     height: 0;
+     }
+
+     .silder-img{
+        padding-top: -300px !important;
      }
 
      .members-para-my-edit{
