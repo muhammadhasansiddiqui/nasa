@@ -166,6 +166,19 @@ bottom: 240px !important;
 padding-left: 10px;
 
 }
+
+
+.members-para-my-edit{
+    color: #FFFFFF;
+width: 20vw;
+font-size:25px ;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+position: relative;
+bottom: 200px !important;
+padding-left: 10px;
+
+}
 .members-para-2{
 color: #ffffff;
     position: relative;
@@ -257,6 +270,13 @@ color: #ffffff;
     
     }
 
+    .members-para-my-edit{
+width: 50vw;
+        position: relative;
+        bottom: 150px !important;
+
+    }
+
 }
 
 
@@ -327,11 +347,22 @@ color: #ffffff;
      bottom: 270px !important;
     
      }
-     .members-para-3{
+     .members-para-2{
         width: 70vw;
      position: relative;
-     bottom: 200px !important;
-    
+     bottom: 275px !important;
+    height: 0;
      }
 
+     .members-para-my-edit{
+        color: #FFFFFF;
+    width: 60vw;
+    font-size:25px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 280px !important;
+    padding-left: 10px;
+    height: 0;
+    }
 }
