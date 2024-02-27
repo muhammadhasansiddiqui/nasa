@@ -113,7 +113,6 @@ body {
 
 .row {
 
-    background-color: red !important;
     height: 60vh !important;
     opacity: black 0.9 !important;
     z-index: -1 !important;
@@ -123,15 +122,19 @@ body {
     height: 60vh !important;
     width: 40vw;
     object-fit: cover;
+    filter: brightness(80%);
 }
 
 .members img {
     width: 20vw !important;
     height: 60vh !important;
     object-fit: cover;
+    filter: brightness(70%);
+
 }
 
 .afr-img {
+    filter: brightness(80%);
 
     width: 20vw !important;
     height: 28vh !important;
@@ -142,6 +145,7 @@ body {
 
 
 .afr-img-2 {
+    filter: brightness(60%);
 
     width: 20vw !important;
     height: 28vh !important;
@@ -150,7 +154,21 @@ body {
 
 }
 
-@media (max-width: 730px) {
+
+.members-para{
+    color: #FFFFFF;
+width: 20vw;
+font-size:25px ;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+position: relative;
+bottom: 160px !important;
+padding-left: 10px;
+
+}
+
+
+@media (max-width: 768px) {
 
     .nasa-main-img h1 {
         font-family: sans-serif;
@@ -161,7 +179,10 @@ body {
         bottom: 299px;
         padding-left: 20px;
 
+        .moon-img img {
+            width: 70vw !important;
 
+        }
 
 
     }
@@ -174,16 +195,44 @@ body {
 
     }
 
-    .members img {
-background-color: aquamarine;
-        width: 138vw !important;
+
+    .moon-img img {
         height: 60vh !important;
-
-
+        width: 80vw !important;
+        padding-bottom: 10px;
     }
+
+    .members img {
+        width: 80vw !important;
+        height: 60vh !important;
+        object-fit: cover;
+        padding-top: 10px;
+    }
+
+
+    .afr-img {
+
+        width: 80vw !important;
+        height: 38vh !important;
+        /* object-fit: contain; */
+        padding-top: 10px;
+    }
+
+
+    .afr-img-2 {
+
+        width: 80vw !important;
+        height: 28vh !important;
+        object-fit: cover;
+    }
+
+
+
 }
 
 
+
+/* ==================================480 =========================================== */
 
 @media (max-width: 480px) {
 
@@ -213,4 +262,32 @@ background-color: aquamarine;
 
     }
 
+    .moon-img img {
+        width: 80vw !important;
+        height: 300vh;
+        object-fit: cover;
+        flex-wrap: wrap;
+    }
+
+    .members img {
+        width: 80vw !important;
+        height: 60vh !important;
+        object-fit: cover;
+        padding-top: 10px;
+    }
+
+    .afr-img {
+
+        width: 80vw !important;
+        height: 28vh !important;
+        object-fit: cover;
+        padding-top: 10px;
+    }
+
+    .afr-img-2 {
+
+        width: 80vw !important;
+        height: 28vh !important;
+        object-fit: cover;
+    }
 }
